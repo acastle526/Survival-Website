@@ -1,0 +1,41 @@
+body {
+  background-color: #000000; /* Black Background */
+  color: #654323; /* Brown Text */
+  /*font-size: large;*/ /* Large Font */
+  /*display: flex;*/
+}
+header {
+  padding: 10px 24px;
+}
+.ComingSoon {
+  color: #ff0000;
+  font-size: xx-large;
+  padding-top: 18%;
+  padding-left: 40%;
+  padding-right: 40%;
+  padding-bottom: 10%;
+}
+.btn-group button {
+  background-color: #000000; /* Green background */
+  border: 1px solid #d3d3d3; /* Green border */
+  color: #ff0000; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #808080;
+}
